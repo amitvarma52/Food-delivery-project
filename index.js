@@ -3,8 +3,8 @@ import cors from 'cors';
 import morgan from 'morgan';
 import dotenv from 'dotenv';
 import colors from 'colors';
-import { connectDb } from './Db/Db.js';
-import router from './MVC/Route/authRoutes.js';
+import { connectDb } from './DB/DB.js';
+import router from './MVC/Route/Route.js';
 
 // config env file
 dotenv.config();
