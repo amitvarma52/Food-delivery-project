@@ -1,9 +1,10 @@
 import './App.css';
+import Collections from './Components/Pages/Collections';
 
 function App() {
   return (
     <div className="App">
-      <h1>Zomato Application by Decodetech students</h1>
+      <Collections/>
     </div>
   );
 }
