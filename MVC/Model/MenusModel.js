@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const tourPackage = mongoose.Schema({
+const MenusList= mongoose.Schema({
     logo_text:{
         type:String,
         require:true
@@ -20,4 +20,4 @@ const tourPackage = mongoose.Schema({
 },{timeStamp:true}
 )   
 
-export default mongoose.model("Menus",tourPackage)
+export default mongoose.model("Menus",MenusList)
