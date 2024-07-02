@@ -30,11 +30,11 @@
 }
 
 .ZomatoHomeSearch{
-    padding: 20px 10px 20px 10px;
-    border-radius: 13px;
+    padding: 10px 5px;
+    border-radius: 0.5rem;
     background-color: #fff;
     border: 1px white solid;
-    height: 50px;
+    height: 3.5rem;
     width: 850px;
     display: flex;
     align-items: center;
@@ -48,6 +48,16 @@
     align-content: center;
     justify-content: center;
 }
+.LocationIcon{
+    font-size: 1.4em;
+    color: pink;
+}
+.DownArrowIcon{
+    font-size: 1.4em;
+    color: #000004;
+    margin: 0px  10px;
+}
+
 .SearchTextBox{
     display: flex;
     gap: 15px;
@@ -56,14 +66,24 @@
     align-content: center;
     justify-content: center;
 }
-.TextBox {
+.SearchTextBox input{
+    padding: 0.2rem; 
+    border: none; 
+    outline: none; 
+    width: 30rem;
+    font-size: 1.2rem;
+    height: 1.5rem;
+}
 
-    border: none; /* Remove border */
-  outline: none; /* Remove outline on focus */
+.TextBox {
+    border: none; 
+    outline: none; 
   }
   
   .TextBox input {
-    padding: 8px; /* Adjust padding as needed */
-    border: none; /* Remove border */
-    outline: none; /* Remove outline on focus */
+    width: 6.5rem;
+    font-size: 1.2rem;
+    height: 1.5rem;
+    border: none; 
+    outline: none; 
   }

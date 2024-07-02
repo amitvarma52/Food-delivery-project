@@ -14,14 +14,14 @@ const ZomatoHome = () => {
        
         <div className='ZomatoHomeTitle'><p className='HomeTitle'>Zomato</p></div>
            <div className='ZomatoHomeDescrition'><p className='HomeDescrition'>Discover the best food & drinks in Mumbai</p></div>
-           <div className='ZomatoHomeSearch'><div className='HomeSearch'> <FaLocationDot/><div className='TextBox'>
+           <div className='ZomatoHomeSearch'><div className='HomeSearch'> <FaLocationDot className='LocationIcon'/><div className='TextBox'>
     <input type="text" placeholder="Thane,Maharastra " />
-  </div> <IoMdArrowDropdown/> </div>
+  </div> <IoMdArrowDropdown className='DownArrowIcon'/> </div>
            <div className='SearchTextBox'> 
-           <div className='TextBox'>
+           
            <HiOutlineMagnifyingGlass/>
-    <input type="text" placeholder="Search for restraunt, cuisine or a dish" />
-  </div>
+      <input type="text" placeholder="Search for restraunt, cuisine or a dish" />
+
            </div>
            </div>
    
