@@ -25,7 +25,7 @@
 }
 
 .HomeDescrition{
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     color: #fff;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .HomeSearch{
-    border-right: 2px pink solid;
+    border-right: 2px #8f8f8f solid;
     display: flex;
     gap: 15px;
     align-items: center;
@@ -51,7 +51,7 @@
 .LocationIcon{
     margin: 0px 0px 0px 7px;
     font-size: 1.4em;
-    color: rgb(252, 119, 141);
+    color: #E23744;
 }
 .DownArrowIcon{
     font-size: 1.4em;
