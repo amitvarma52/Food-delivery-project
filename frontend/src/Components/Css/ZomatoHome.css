@@ -49,8 +49,9 @@
     justify-content: center;
 }
 .LocationIcon{
+    margin: 0px 0px 0px 7px;
     font-size: 1.4em;
-    color: pink;
+    color: rgb(252, 119, 141);
 }
 .DownArrowIcon{
     font-size: 1.4em;
@@ -58,22 +59,6 @@
     margin: 0px  10px;
 }
 
-.SearchTextBox{
-    display: flex;
-    gap: 15px;
-    margin: 0px 0px 0px 30px;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-}
-.SearchTextBox input{
-    padding: 0.2rem; 
-    border: none; 
-    outline: none; 
-    width: 30rem;
-    font-size: 1.2rem;
-    height: 1.5rem;
-}
 
 .TextBox {
     border: none; 
@@ -87,3 +72,26 @@
     border: none; 
     outline: none; 
   }
+
+  .SearchTextBox{
+    display: flex;
+    gap: 15px;
+    margin: 0px 0px 0px 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.SearchTextBox svg{
+    font-size: 1.4em;
+    color: gray;
+}
+
+  .SearchTextBox input{
+    padding: 0.2rem; 
+    border: none; 
+    outline: none; 
+    width: 30rem;
+    font-size: 1.2rem;
+    height: 1.5rem;
+}
