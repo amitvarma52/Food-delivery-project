@@ -7,7 +7,7 @@ import { HiOutlineMagnifyingGlass } from "react-icons/hi2";
 
 const ZomatoHome = () => {
   const ZomatoHomearry = [];
-  fe
+    
   return ( 
     <>
       <div className="ZomatoHome Container">
