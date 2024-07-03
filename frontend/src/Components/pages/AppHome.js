@@ -24,7 +24,7 @@ const ZomatoHome = () => {
   return ( 
     <div className="ZomatoHome Container">
       <div className='ZomatoHomeTitle'>
-        <p className='HomeTitle'>{appHomeData.length > 0 ? appHomeData[0].heading : "Loading..."}</p>
+        <p className='HomeTitle'>{appHomeData.length > 0 ? appHomeData[0].heading : "Zomato"}</p>
       </div>
       <div className='ZomatoHomeDescrition'>
         <p className='HomeDescrition'>{appHomeData.length > 0 ? appHomeData[0].description : ""}</p>

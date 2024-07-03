@@ -1,0 +1,52 @@
+.ZomatoFooter{
+    width: 100%;
+    background: rgb(248, 248, 248);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.ZomatoFooterMainContainer{
+    max-width: 80vw;
+    width: 80vw;
+    padding: auto ;
+    margin: auto;
+}
+
+.FooterSecImg{
+    height: 2.8rem;
+    width: 13.2rem;
+}
+
+
+.FooterSection{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 2rem
+}
+
+.FooterListSec {
+display: flex;
+gap: 1.3rem;
+margin: 10px ;
+}
+
+.FooterListSec select{
+    border: 1px  black solid;
+    height: 2.3rem;
+    width: 10rem;
+
+}
+
+
+.FooterLinkDivs{
+    display: flex ;
+}
+.linkdivs{
+    border: 2px black solid;
+    width: 20%;
+    height: 300px;
+    
+}
