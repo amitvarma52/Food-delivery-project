@@ -14,8 +14,8 @@
 }
 
 .FooterSecImg{
-    height: 2.8rem;
-    width: 13.2rem;
+    height: 3.8rem;
+    width: 15.2rem;
 }
 
 
@@ -34,10 +34,11 @@ margin: 10px ;
 }
 
 .FooterListSec select{
-    border: 1px  black solid;
+    cursor: pointer;
+    border: 1px  rgb(105, 105, 105) solid;
     height: 2.3rem;
     width: 10rem;
-
+    border-radius: 8px;
 }
 
 
@@ -45,10 +46,10 @@ margin: 10px ;
     display: flex ;
 }
 .linkdivs{
-    border: 2px black solid;
+    /* border: 2px black solid; */
     width: 20%;
-
-    height: 300px;
+    
+    margin: 0px 0px 0.3rem 0.49rem;
     
 }
 .linkdivs nav{
@@ -56,9 +57,70 @@ margin: 10px ;
     text-decoration: none;
     flex-direction: column;
 }
+
+.linkdivs h6{
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0px 0px 1.2rem;
+    margin: 0px 0px 0.6rem;
+}
+.linkdivs a{
+    text-decoration: none;
+    font-size:0.99rem;
+    line-height: 1.1rem;
+    color: rgb(105, 105, 105);
+    margin: 0.3rem 0px;
+}
+
 .AppFooterHR{
     margin-top: 5rem;
     border-width: 1px 0px 0px;
     border-top-style: solid;
     border-top-color: rgb(207, 207, 207);
 }
+
+.AboutZomatoDiv{
+    max-width: 18%!important;
+    width: 100%!important;
+}
+
+.ZomaverseDiv{
+    max-width: 19%!important;
+    width: 100%!important;
+}
+.RestrauntsDiv{
+    max-width: 25%!important;
+    width: 100%!important;
+}
+.Learn-MoreDiv{
+    max-width: 17%!important;
+    width: 100%!important;
+}
+.SocialLinksDiv{
+    max-width: 19%!important;
+    width: 100%!important;
+}
+
+.SocialLinks{
+    display: flex;
+    justify-content: start;
+}
+.SocialLinks .SocialIcons{
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    margin-right: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+} 
+
+.AppFooterAfter p{
+font-size: 0.9rem;
+    color: rgb(79, 79, 79);
+    line-height: 1.7rem;
+    margin-top: 1.7rem;
+}
+

@@ -1,11 +1,11 @@
 import './App.css';
 import AppFooter from './Components/pages/AppFooter.js';
-// import ZomatoHome from './Components/pages/AppHome.js';
+import ZomatoHome from './Components/pages/AppHome.js';
 
 function App() {
   return (
   <>
-    {/* <ZomatoHome/> */}
+    <ZomatoHome/>
     <AppFooter/>
   </>
   )
