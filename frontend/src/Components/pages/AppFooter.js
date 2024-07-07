@@ -3,6 +3,17 @@ import "../Css/ZomatoFooter.css"
 import ZomatoLogo from '../Image/zomato-logo.png';
 
 const AppFooter = () => {
+  const [appFooterData, setAppFooterData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get("http://localhost:8000/api/v1/menu/getMenu");
+        setAppHomeData(response.data);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
   return (
     <>
        <footer className='ZomatoFooter'>
