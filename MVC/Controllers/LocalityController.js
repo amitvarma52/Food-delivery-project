@@ -3,7 +3,11 @@ import LocalityModel from "../Model/LocalitiesModel.js";
 // post menus
 export const createLocation =async (req,res) =>{
     try {
+
+        console.log(req.body);
+
         const{heading,places} = req.body
+        console.log(heading);
 
         // validate
         if(!heading || !places){
@@ -15,6 +19,8 @@ export const createLocation =async (req,res) =>{
             heading,places
 
         })
+
+        console.log(newLocation);
          // Send response
          console.log("Location added successfully".bgGreen.white);        
          return res.status(201).send({ message: 'Location added successfully', device: newLocation });

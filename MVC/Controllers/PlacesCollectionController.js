@@ -1,25 +1,24 @@
-import MenusModel from "../Model/MenusModel.js";
-import PlacesCollecion from "../Model/PlacesCollectionModel.js";
+import PlacesCollectionModel from "../Model/PlacesCollectionModel.js";
 
 
 // post places collection
-export const newMenus =async (req,res) =>{
+export const newCard =async (req,res) =>{
     try {
-        const{logo_text,links,heading,description} = req.body
+        const{heading,left_sub_heading,right_sub_heading,cards} = req.body
 
         // validate
-        if(!logo_text || !links || !heading || !description){
-            console.log("all menu data req".bgYellow);
-            return res.status(400).send("all menu posted")
+        if(!heading || !left_sub_heading || !right_sub_heading || !cards){
+            console.log("all card data req".bgYellow);
+            return res.status(400).send("all card posted")
         }
         // creae new plan
-        const newMenu = await MenusModel.create({
-            logo_text,links,heading,description
+        const newCard = await PlacesCollectionModel.create({
+            heading,left_sub_heading,right_sub_heading,cards
 
         })
          // Send response
-         console.log("Menu added successfully".bgGreen.white);        
-         return res.status(201).send({ message: 'menu added successfully', device: newMenu });
+         console.log("Cards added successfully".bgGreen.white);        
+         return res.status(201).send({ message: 'Cards added successfully', device: newCard });
     } catch (error) {
         console.log(`Api error ${error}`);
         return res.status(500).send("Internal Server Error");
@@ -28,10 +27,10 @@ export const newMenus =async (req,res) =>{
 
 // get 
 
-export const getMenus = async (req, res) => {
+export const getCards = async (req, res) => {
     try {
-        const allMenus = await MenusModel.find();
-        res.status(200).json(allMenus);
+        const allCards = await PlacesCollectionModel.find();
+        res.status(200).json(allCards);
     } catch (error) {
         res.status(500).send("Internal Server Error");
     }
