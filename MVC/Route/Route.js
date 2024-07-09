@@ -1,4 +1,5 @@
 import express from 'express'
+
 import { getUser, newUser} from '../Controllers/SignUpController.js'
 import { getMenus, newMenus } from '../Controllers/MenusController.js';
 import {createLocation} from '../Controllers/LocalityController.js'
@@ -8,6 +9,7 @@ import {createCity,getCities} from "../Controllers/CityController.js"
 import {createRestaurantType,getRestaurantTypes} from "../Controllers/RestaurantTypesController.js"
 import {createRestaurantChain,getRestaurantChains} from "../Controllers/RestaurantChainController.js"
 import { newCard,getCards } from '../Controllers/PlacesCollectionController.js';
+import { createfooter, getfooter } from '../Controllers/FooterController.js';
 
 const router=express.Router()
 
@@ -49,8 +51,8 @@ router.get('/restaurant-chains/list',getRestaurantChains);     // GET
 router.post('/collection/add', newCard);     // POST 
 router.get('/collection/list',getCards);     // GET  
 
-
-
-
+//footer
+router.post("/footer/createfooter", createfooter); //POST
+router.get("/footer/getfooter", getfooter); //GET
 
 export default router
