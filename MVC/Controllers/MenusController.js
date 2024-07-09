@@ -28,7 +28,7 @@ export const newMenus =async (req,res) =>{
 
 export const getMenus = async (req, res) => {
     try {
-        const allMenus = await MenusModel.find();
+        const allMenus = await MenusModel.find({});
         res.status(200).json(allMenus);
     } catch (error) {
         res.status(500).send("Internal Server Error");
