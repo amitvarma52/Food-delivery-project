@@ -1,4 +1,5 @@
 import express from 'express'
+import { getUser, newUser} from '../Controllers/SignUpController.js'
 import { getMenus, newMenus } from '../Controllers/MenusController.js';
 import {createLocation} from '../Controllers/LocalityController.js'
 import { getLocations } from '../Controllers/LocalityController.js';
@@ -11,9 +12,12 @@ import { newCard,getCards } from '../Controllers/PlacesCollectionController.js';
 const router=express.Router()
 
 // menu
-router.post('/menu/newMenu', newMenus);     // POST 
-router.get('/menu/getMenu',getMenus);     // GET  
+router.post('/menu/newMenu',newMenus);   // POST 
+router.get('/menu/getMenu',getMenus);     // GET   
 
+// sign-up
+router.post('/user/newUser',newUser)     // POST
+router.get('/user/getUser', getUser);    // GET   
 
 //locations
 router.post('/location/newlocation', createLocation);     // POST 
@@ -44,6 +48,9 @@ router.get('/restaurant-chains/list',getRestaurantChains);     // GET
 //collections
 router.post('/collection/add', newCard);     // POST 
 router.get('/collection/list',getCards);     // GET  
+
+
+
 
 
 export default router
