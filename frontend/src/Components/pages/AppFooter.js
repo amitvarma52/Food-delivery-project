@@ -47,7 +47,7 @@ const AppFooter = () => {
           </section>
 
           <div className='FooterLinkDivs'>
-            {appFooterData.map((footer, index) => (
+          {appFooterData.map((footer, index) => (
               <div key={index} className={`linkdivs ${footer.footer_className}`}>
                 <h6 className={`${footer.footer_className}-Header`}>{footer.footer_heading}</h6>
                 <nav className={`${footer.footer_className}-Nav`}>

@@ -1,0 +1,64 @@
+.Explore-near-Section {
+    width: 100%;
+    background: rgb(248, 248, 248);
+}
+.Explore-near-Container{
+    max-width: 80vw;
+    width: 80vw;
+    padding: auto ;
+    margin: auto;
+}
+
+.Explore-near-p{
+    margin: 0px 0px 2rem;
+    color: rgb(54, 54, 54);
+    font-size: 2.2rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+
+.Explore-Content{
+    background-color: #fff;
+    border-radius: 0.8rem;
+    border: 1px solid rgb(232, 232, 232);
+    max-width: 80vw;
+    width: 100%;
+    padding: auto ;
+    margin: auto;
+}
+
+.Explore-Content-header{
+    padding: 1.4rem;
+
+    margin-top: 0px;
+    margin-left: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Explore-Content-header h5{
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    font-size: 25px;
+    line-height: 26px;
+    margin: 0px;
+}
+
+.Explore-Content-links{
+    padding: 1.75rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Explore-Content-links a, span{
+    
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-right: 0.8rem;
+}

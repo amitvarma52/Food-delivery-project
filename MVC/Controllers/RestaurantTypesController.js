@@ -31,7 +31,9 @@ export const createRestaurantType =async (req,res) =>{
 export const getRestaurantTypes = async (req, res) => {
     try {
         const allRestaurantTypes= await RestaurantTypes.find();
-        res.status(200).json(allRestaurantTypes);
+        res.status(200).json(
+            {restraunts: allRestaurantTypes}
+            );
     } catch (error) {
         res.status(500).send("Internal Server Error");
     }
