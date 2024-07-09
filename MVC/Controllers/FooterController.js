@@ -3,9 +3,12 @@ import FooterModel from "../Model/FooterModel.js";
 // Controller function to create a new footer
 export const createfooter = async (req, res) => {
     try {
-        const { footer_heading, footer_links } = req.body;
+        const { footer_className, footer_heading, footer_links } = req.body;
 
         // Validation
+        if (!footer_className) {
+            return res.status(400).send("footer_className is required");
+        }
         if (!footer_heading) {
             return res.status(400).send("footer_heading is required");
         }
@@ -21,6 +24,7 @@ export const createfooter = async (req, res) => {
 
         // Create new footer entry
         const newFooter = await FooterModel.create({
+            footer_className,
             footer_heading,
             footer_links: footer_links.split(",").map(link => link.trim()) // Convert links string to array
         });

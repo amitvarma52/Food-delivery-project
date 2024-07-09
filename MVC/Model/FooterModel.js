@@ -1,6 +1,10 @@
 import mongoose from "mongoose";
 
 const footerSchema = new mongoose.Schema({
+    footer_className: {
+        type: String,
+        required: true
+    },
     footer_heading: {
         type: String,
         required: true

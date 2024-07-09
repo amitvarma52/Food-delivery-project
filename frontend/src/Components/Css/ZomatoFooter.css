@@ -81,20 +81,21 @@ margin: 10px ;
     border-top-color: rgb(207, 207, 207);
 }
 
-.AboutZomatoDiv{
+.AboutZomato-Div{
+    
     max-width: 18%!important;
     width: 100%!important;
 }
 
-.ZomaverseDiv{
+.Zomaverse-Div{
     max-width: 19%!important;
     width: 100%!important;
 }
-.RestrauntsDiv{
+.For-Restraunts-Div{
     max-width: 25%!important;
     width: 100%!important;
 }
-.Learn-MoreDiv{
+.Learn-More-Div{
     max-width: 17%!important;
     width: 100%!important;
 }

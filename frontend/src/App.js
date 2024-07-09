@@ -1,6 +1,6 @@
 import './App.css';
-import AppFooter from './Components/pages/AppFooter.js';
 import ZomatoHome from './Components/pages/AppHome.js';
+import AppFooter from './Components/pages/AppFooter.js';
 
 function App() {
   return (
