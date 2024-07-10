@@ -1,8 +1,8 @@
 import './App.css';
 import ZomatoHome from './Components/pages/AppHome.js';
-import Collections from './Components/Pages/Collections';
+import Collections from './Components/pages/Collections.js'
 import Explore from './Components/pages/Explore.js';
-import Cards from "./Components/Pages/Cards.jsx"
+import Cards from './Components/pages/Cards.js';
 
 import AppFooter from './Components/pages/AppFooter.js';
 
