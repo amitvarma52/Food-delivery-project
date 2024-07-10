@@ -6,10 +6,10 @@ import Explore from './Components/pages/Explore.js';
 function App() {
   return (
   <>
-    {/* <ZomatoHome/>
-    
-    <AppFooter/> */}
+    <ZomatoHome/>
     <Explore/>
+    <AppFooter/>
+    
   </>
   )
 }
