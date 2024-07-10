@@ -1,0 +1,65 @@
+.collection{
+    margin: 20px 80px;
+}
+
+.headline-section{
+    text-align: start;
+    margin: 0px;
+}
+
+.headline-section h1{
+    font-weight: 400;
+    font-size: 40px;
+    margin: 0;
+}
+
+.subHeadline-section{
+    display: flex;
+    justify-content: space-between;
+}
+.subHeadline-section h3{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.rightsubHeadline-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cards-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    position: relative;
+    border: 1px solid inherit;
+    border-radius: 5px 5px;
+    background-image: url('https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?cs=srgb&dl=pexels-reneterp-1581384.jpg&fm=jpg');
+    transition: opacity 0.25s ease-in 0s;    
+    height: 340px;
+    width: 255px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.card-info{
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    bottom: 10px;
+    left: 20px;
+    text-align: left;
+    line-height:25px;
+    box-shadow: 0;
+}
+
+.card-info span{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
