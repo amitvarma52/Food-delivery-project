@@ -14,7 +14,6 @@ function App() {
   <>
   
     <ZomatoHome/>
-    <Signup />
 
     <ThreeCards/>
     <Collections/>
