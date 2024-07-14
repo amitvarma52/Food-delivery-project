@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import "../CSS/ZomatoHome.css";
+import '../CSS/Navbar.css'
+
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { HiOutlineMagnifyingGlass } from "react-icons/hi2";
@@ -25,6 +27,15 @@ const ZomatoHome = () => {
 
   return ( 
     <div className="ZomatoHome Container">
+        <div className="Navbar">
+                <div className="DownApp">@ Get the App</div>
+                <div className="NavLInks">
+                    <li>Investor Relations</li>
+                    <li>Add Restaurant</li>
+                    <li>Log in</li>
+                    <li>Sign up</li>
+                </div>
+            </div>
       <div className='ZomatoHomeTitle'>
         <p className='HomeTitle'>{appHomeData.length > 0 ? appHomeData[0].heading : "Zomato"}</p>
       </div>

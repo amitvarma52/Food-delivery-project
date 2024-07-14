@@ -10,7 +10,7 @@ const Signup = () => {
 
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://.................")
+        const response = await axios.post("http://localhost:8000/api/v1/user/newUser")
         setUser(response.data);
       } catch (error) {
         console.log("error fetching data:", error)

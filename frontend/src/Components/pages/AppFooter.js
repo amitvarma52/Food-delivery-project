@@ -70,8 +70,8 @@ const AppFooter = () => {
                 
               </div>
               <div className="download-div">
-                <div className="download-subdiv"><a><img src={Gplay}></img></a></div>
-                <div className="download-subdiv"><a><img src={Appstore}></img></a></div>
+                <div className="download-subdiv"><a><img  className='DownIMg' src={Gplay}></img></a></div>
+                <div className="download-subdiv"><a><img  className='DownIMg' src={Appstore}></img></a></div>
               </div>
             </div>
           </div>
