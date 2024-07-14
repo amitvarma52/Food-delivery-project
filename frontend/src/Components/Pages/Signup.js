@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { useEffect } from 'react'
-import '../Css/Signup.css'
+import '../CSS/Signup.css'
 const Signup = () => {
 
   const [user, setUser] = useState([])

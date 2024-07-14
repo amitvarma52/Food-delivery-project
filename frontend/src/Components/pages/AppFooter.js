@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import "../Css/ZomatoFooter.css"
+import "../CSS/ZomatoFooter.css"
 
 import axios from 'axios'
 

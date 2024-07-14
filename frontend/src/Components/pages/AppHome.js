@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import "../Css/ZomatoHome.css";
+import "../CSS/ZomatoHome.css";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { HiOutlineMagnifyingGlass } from "react-icons/hi2";

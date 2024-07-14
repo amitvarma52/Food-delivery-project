@@ -1,16 +1,23 @@
 import './App.css';
-<<<<<<< Updated upstream
-import ZomatoHome from './Components/pages/AppHome.js';
-import Collections from './Components/pages/Collections.js'
-import Explore from './Components/pages/Explore.js';
-import Cards from './Components/pages/Cards.js';
 
-import AppFooter from './Components/pages/AppFooter.js';
+import Navbar from './Components/Pages/Navbar.js'
+import Signup from './Components/Pages/Signup.js';
+import ZomatoHome from './Components/Pages/AppHome.js';
+import Cardspage from './Components/Pages/Cardspage.js';
+import Collections from './Components/Pages/Collections.js'
+import Explore from './Components/Pages/Explore.js';
+import Cards from './Components/Pages/Cards.js';
+
+import AppFooter from './Components/Pages/AppFooter.js';
 
 function App() {
   return (
   <>
+  
+    <Navbar />
+    <Signup />
     <ZomatoHome/>
+    <Cardspage/>
     <Collections/>
     <Cards/>
     <Explore/>
@@ -18,20 +25,5 @@ function App() {
     
   </>
   )
-=======
-import Navbar from './Components/Pages/Navbar';
-import Signup from './Components/Pages/Signup';
-import Cardspage from './Components/Pages/Cardspage';
-
-function App() {
-  return (
-    <>
-    <Navbar />
-    <Signup />
-    <Cardspage />
-    
-    </>
-  );
->>>>>>> Stashed changes
 }
 export default App;

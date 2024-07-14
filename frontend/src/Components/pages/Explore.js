@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import '../Css/Explore.css';
+import '../CSS/Explore.css';
 import { IoIosArrowDown } from "react-icons/io";
 import { LuDot } from "react-icons/lu";
 const Explore = () => {

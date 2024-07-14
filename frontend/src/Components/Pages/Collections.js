@@ -1,6 +1,6 @@
 import React from "react";
 import { MdOutlineArrowRight } from "react-icons/md";
-import "../Css/Collections.css";
+import "../CSS/Collections.css"
 
 const Collections = () => {
   return (
