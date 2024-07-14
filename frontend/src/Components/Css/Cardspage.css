@@ -1,0 +1,15 @@
+.cards{
+    width:72%;margin: auto;
+  display: flex;
+  justify-content: space-between; gap:20px;
+}
+.card{
+    border: 1px solid rgba(128, 128, 128, 0.799);
+    height: 250px; width: 400px;
+    border-radius: 15px;
+}
+.card img{
+    height:180px;width:100%;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
