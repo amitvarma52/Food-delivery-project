@@ -48,3 +48,15 @@ export const getUser = async (req, res) => {
     }
 };
 
+// get by email
+export const getUserByID = async (req, res) => {
+    try {
+        const { email } = req.params;
+        const user = await SignUpModel.findOne({email});
+        if (user)  return res.status(200).json(user);
+        else return res.status(404).send("User not found");
+    } catch (error) {
+        console.error(`Error getting user by ID: ${error}`);
+        res.status(500).send("Internal Server Error");
+    }
+};
