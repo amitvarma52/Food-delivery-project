@@ -15,9 +15,9 @@ function App() {
   
     <ZomatoHome/>
 
-    <ThreeCards/>
-    <Collections/>
-    <PlaceCards/>
+    {/* <ThreeCards/> */}
+    {/* <Collections/> */}
+    {/* <PlaceCards/>/ */}
     <Explore/>
     <AppFooter/>
     
