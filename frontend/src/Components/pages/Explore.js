@@ -48,7 +48,7 @@ const Explore = () => {
                                 </i>
                             </div>
                         </div>
-                        <div className="Explore-Content-links" style={{ display: isopen.includes(index) ? 'block' : 'none' }}>
+                        <div className={ `Explore-Content-links ${isopen.includes(index) ? 'block' : 'none' } `} >
                             {restaurant.restaurantTypes.map((type, idx) => (
                              <a key={idx} href="#">{type} </a>
                             ))}
