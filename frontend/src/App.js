@@ -1,6 +1,5 @@
 import './App.css';
 
-import Navbar from './Components/Pages/Navbar.js'
 import Signup from './Components/Pages/Signup.js';
 import ZomatoHome from './Components/Pages/AppHome.js';
 import ThreeCards from './Components/Pages/ThreeCards.js';
@@ -14,9 +13,9 @@ function App() {
   return (
   <>
   
-    <Navbar />
-    <Signup />
     <ZomatoHome/>
+    <Signup />
+
     <ThreeCards/>
     <Collections/>
     <PlaceCards/>

@@ -1,16 +1,20 @@
 
 .Navbar{
-    border:2px solid yellow;
+    position: absolute;
+    top: 10px;
+    margin-top: 0px;
     height:80px;width:100%;
     box-sizing: border-box;
+    color: white;
+    font-size: 1rem
 }
-.left{
+.DownApp{
     float: left;
     padding:10px;
     margin:8px;
     margin-left: 150px;
 }
-.right{
+.NavLInks{
     list-style: none;
     float: right;
     display:flex;
