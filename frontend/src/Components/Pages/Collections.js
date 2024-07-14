@@ -27,8 +27,8 @@ const Collections = () => {
           </div>
         </div>
         <div className="cards-section">
-          <div className="card">
-            <div className="card-info">
+        <div className="collectioncard">
+        <div className="collectioncard-info">
               <span>Newsly open places</span>
               <span>
                 24 Places
@@ -41,8 +41,8 @@ const Collections = () => {
               </span>
             </div>
           </div>
-          <div className="card">
-            <div className="card-info">
+          <div className="collectioncard">
+            <div className="collectioncard-info">
               <span>Top Trending Spots</span>
               <span>
                 36 Places
@@ -55,9 +55,9 @@ const Collections = () => {
               </span>
             </div>
           </div>
-          <div className="card">
-            <div className="card-info">
-              <span> Best Of Jio World Drive</span>
+          <div className="collectioncard">
+          <div className="collectioncard-info">
+             <span> Best Of Jio World Drive</span>
               <span>
                 19 Places
                 <MdOutlineArrowRight
@@ -69,8 +69,8 @@ const Collections = () => {
               </span>
             </div>
           </div>
-          <div className="card">
-            <div className="card-info">
+          <div className="collectioncard">
+          <div className="collectioncard-info">
               <span>Monsoon food Festival</span>
               <span>
                 13 Places

@@ -34,7 +34,7 @@
     justify-content: space-between;
 }
 
-.card{
+.collectioncard{
     position: relative;
     border: 1px solid inherit;
     border-radius: 5px 5px;
@@ -45,7 +45,7 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-.card-info{
+.collectioncard-info{
     position: absolute;
     color: white;
     display: flex;
