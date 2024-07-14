@@ -1,0 +1,73 @@
+.cont{
+    border:2px solid black;
+    height:520px;width:450px; margin:auto;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+.signup{
+    font-size:30px;
+    padding:20px;
+}
+.x{
+   position: relative;
+   left: 400px;
+   top:-50px;
+    border: none;
+    background-color: white;
+}
+.input{
+    width:390px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding:10px;
+    border-radius: 5px;
+    border:1px solid red;
+    
+}
+.-or-{
+   display: flex; 
+   margin-top: 15px;
+   justify-content: center; gap:5px;
+}
+.or-line{
+    margin-top: 13px;
+   background-color: grey; 
+   width:190px;
+   height:0px;
+   border:1px solid grey;
+   border-radius: 3px;
+}
+.btn{
+    background-color: rgba(216, 21, 21, 0.725);
+    color: aliceblue;
+    text-align: center;
+    width:410px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding:10px;
+    border:1px solid rgba(216, 21, 21, 0.725);
+    border-radius: 5px;
+}
+
+.gsignin{
+    border: 1px solid gray;
+    width:390px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.line{
+    margin-top: 20px;
+   background-color: grey; 
+   width:410px;
+   height:0px;
+   margin-left: 20px;
+   border:1px solid grey;
+   border-radius: 3px;
+}
+.already{
+    margin-left: 20px;
+    margin-top: 10px;
+}

@@ -1,4 +1,5 @@
 import './App.css';
+<<<<<<< Updated upstream
 import ZomatoHome from './Components/pages/AppHome.js';
 import Collections from './Components/pages/Collections.js'
 import Explore from './Components/pages/Explore.js';
@@ -17,5 +18,20 @@ function App() {
     
   </>
   )
+=======
+import Navbar from './Components/Pages/Navbar';
+import Signup from './Components/Pages/Signup';
+import Cardspage from './Components/Pages/Cardspage';
+
+function App() {
+  return (
+    <>
+    <Navbar />
+    <Signup />
+    <Cardspage />
+    
+    </>
+  );
+>>>>>>> Stashed changes
 }
 export default App;
