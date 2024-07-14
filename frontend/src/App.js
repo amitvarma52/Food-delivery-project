@@ -13,14 +13,15 @@ import AppFooter from './Components/Pages/AppFooter.js';
 function App() {
   return (
   <>
-  <Signup/>
-<ZomatoHome/>
-<Cardspage/>
-<ThreeCards/>
-<Collections/>
-<Explore/>
-<PlaceCards/>
-<AppFooter/>
+  
+    <ZomatoHome/>
+
+    <ThreeCards/>
+    <Collections/>
+    <PlaceCards/>
+    <Explore/>
+    <AppFooter/>
+    
   </>
   )
 }

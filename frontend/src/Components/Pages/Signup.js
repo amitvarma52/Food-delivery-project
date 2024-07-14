@@ -21,7 +21,7 @@ const Signup = () => {
 
   return (
     <>
-      <div className='cont'>
+      <div className='SignUp-Container'>
         <div className='signup'>Sign up </div>
         <button className='x'> <strong>X</strong></button>
         <div><input type="text" placeholder="Name" className='input'></input></div>
