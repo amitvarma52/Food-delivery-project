@@ -6,7 +6,7 @@
     height:80px;width:100%;
     box-sizing: border-box;
     color: white;
-    font-size: 1rem
+    font-size: 1.2rem
 }
 .DownApp{
     float: left;
@@ -23,4 +23,8 @@
     margin:8px;
     margin-right: 200px;
 }
+a{
+    text-decoration: none;
+    color: white;
 
+}

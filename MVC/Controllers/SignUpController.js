@@ -4,26 +4,31 @@ export const newUser = async (req,res) =>{
 try {
             const{firstName,lastName,email,phone} =req.body;
             
-            // validate input
-            if(!firstName){
-                return res.status(400).send("Enter your firstName");}
+                // validate input
+                if(!firstName){
+                    return res.status(400).send("Enter your firstName");}
                 if(!lastName){
-        return res.status(400).send("Enter your lastname");}
-    if(!email){
-        return res.status(400).send("Enter your email id");}
-        if(!phone){
-            return res.status(400).send("Enter your Phone number");}
-                // check is user exist
-                const chkExisting = await SignUpModel.findOne({email});
+                    return res.status(400).send("Enter your lastname");}
+                if(!email){
+                    return res.status(400).send("Enter your email id");}
+                if(!phone){
+                    return res.status(400).send("Enter your Phone number");}
+                if(!password){
+                    return res.status(400).send("Enter your Phone number");}
+            // check is user exist
+            const chkExisting = await SignUpModel.findOne({email});
                 if(chkExisting){
-                    return res.status(400).send("Email already registered");}
+                return res.status(400).send("Email already registered");}
 
     // Create user  
+    const hashedPassword = await hashPassword(password);
+
     const newUser = await SignUpModel.create({ 
         firstName, 
         lastName,
         email,
-        phone
+        phone,
+        password:hashedPassword
      });
         
         // Send response
